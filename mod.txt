@@ -17,6 +17,10 @@
 		{ 
 			"hook_id" : "lib/tweak_data/blackmarket/projectilestweakdata.lua",
 			"script_path" : "projectilestweakdata.lua" 
+		},
+		{ 
+			"hook_id" : "lib/tweak_data/upgradestweakdata.lua",
+			"script_path" : "upgradestweakdata.lua" 
 		}
 		
 	]
