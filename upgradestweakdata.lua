@@ -1,4 +1,6 @@
-Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "Leech_Nerf_UpgradesTweakData", function(self)
+local leech_nerf_upgradestweakdata = UpgradesTweakData.init
+function UpgradesTweakData:init(tweak_data)
+	leech_nerf_upgradestweakdata(self, tweak_data)
 	--cooldown description
 	self.specialization_descs[22][1].multiperk3 = "5"
 	self.specialization_descs[22][1].multiperk6 = "40"
@@ -8,4 +10,4 @@ Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "Leech_Nerf_UpgradesTweakD
 			2,
 			5
 	}
-end)
+end
