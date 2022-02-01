@@ -1,4 +1,4 @@
-Hooks:Add("LocalizationManagerPostInit", "Leech_Bad", function(loc)
+Hooks:Add("LocalizationManagerPostInit", "Leech_Nerf_LocalizationManager", function(loc)
 	loc:add_localized_strings( 
 		{
 			menu_deck22_3 = "Indomitable",
