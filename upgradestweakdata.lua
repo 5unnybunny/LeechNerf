@@ -1,4 +1,4 @@
-Hooks:PostHook(UpgradesTweakData, "init", "Leech_Nerf_UpgradesTweakData", function(self)
+Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "Leech_Nerf_UpgradesTweakData", function(self)
 	--cooldown description
 	self.specialization_descs[22][1].multiperk3 = "5"
 	self.specialization_descs[22][1].multiperk6 = "40"
