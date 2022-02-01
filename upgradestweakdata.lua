@@ -1,5 +1,4 @@
-local leech_nerf_upgradestweakdata = UpgradesTweakData.init
-function UpgradesTweakData:init(tweak_data)
+Hooks:PostHook(UpgradesTweakData, "init", "Leech_Nerf_UpgradesTweakData", function(self)
 	leech_nerf_upgradestweakdata(self, tweak_data)
 	--cooldown description
 	self.specialization_descs[22][1].multiperk3 = "5"
@@ -10,4 +9,4 @@ function UpgradesTweakData:init(tweak_data)
 			2,
 			5
 	}
-end
+end )
