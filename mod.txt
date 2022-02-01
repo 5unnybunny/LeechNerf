@@ -15,10 +15,6 @@
 			"script_path" : "localizationmanager.lua" 
 		},
 		{ 
-			"hook_id" : "lib/tweak_data/blackmarket/projectilestweakdata",
-			"script_path" : "projectilestweakdata.lua" 
-		},
-		{ 
 			"hook_id" : "lib/tweak_data/upgradestweakdata",
 			"script_path" : "upgradestweakdata.lua" 
 		}
