@@ -1,6 +1,6 @@
 Hooks:PostHook(UpgradesTweakData, "init", "Leech_Nerf_UpgradesTweakData", function(self)
 	--cooldown description
-	self.specialization_descs[22][1].multiperk3 = "6"
+	self.specialization_descs[22][1].multiperk3 = "5"
 	self.specialization_descs[22][1].multiperk6 = "40"
     
     	--required kills increased to 5
