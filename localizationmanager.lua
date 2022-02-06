@@ -14,7 +14,7 @@ Hooks:Add("LocalizationManagerPostInit", "Leech_Nerf_LocalizationManager", funct
 	loc:add_localized_strings(
 		{
 			menu_deck22_9 = "Symbiosis",
-			["menu_deck22_9_desc"] = "Your maximum health is increased by ##60%##.\n\nDeck Completion Bonus: Your chance of getting a higher quality item during Payday is increased by ##10%##."
+			["menu_deck22_9_desc"] = "While the Leech Ampule is active your health is now divided into segments of ##10%##. Your maximum health is increased by ##60%##.\n\nDeck Completion Bonus: Your chance of getting a higher quality item during Payday is increased by ##10%##."
 		}
 	)
 end )
