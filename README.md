@@ -12,3 +12,6 @@ Kills during ampule required to get godmode and heal increased from 2 to 5.
   
 Version 5  
 Ampule cooldown is now 60 seconds.  
+  
+Version 6  
+Overkill nerfed leech so it takes 2 health chunks if damage is over 200, so I'm returning back the 10 health segments.  
